@@ -1,0 +1,19 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    background: #191A1D;
+
+}
+h1 {
+    font-size: 63px;
+}
+.margin-top {
+    margin: 100px auto;
+}
