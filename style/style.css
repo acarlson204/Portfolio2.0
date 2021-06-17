@@ -30,7 +30,7 @@ button {
     display: inline-block;
     font-size: 29.25px;
     color: #fff;
-    margin: 20px;
+
 }h1 {
     font-size: 63px;
     font-weight: 300;
@@ -50,7 +50,13 @@ footer {
     text-rendering: optimizeLegibility;
 }
 
+main {
+    margin-top: 222px!important;
+}
 
+.nav {
+    color: #fff;
+}
 
 p {
     font-size: 26px;
@@ -62,9 +68,7 @@ ul {
     text-align: initial;
     color: #ffffff80;
 }
-main {
-    margin-top: 222px!important;
-}
+
 .hero {
     margin-top: 80px;
 }
