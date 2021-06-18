@@ -22,7 +22,7 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="index.html">ACARLSON204</a>
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,39 +49,42 @@
         </div>
     </nav>
 
-    <header class="justify-text-center">
-        <span class="banner__content">
-            <span class="banner__left">
-                <h1 class="intro__title ">Hey, I'm Abby</h1>
-                <h3 class="intro__subtitle">A web developer from<br>Winnipeg, Canada. I am a<br>
-                    student
-                    of SheCodes at the <br>moment, with the goal of <br>learning &
-                    improving coding</h3>
-                <button class="mt-5" href="projects.html">My
-                    projects</button>
+    <div class="container">
+        <header class="justify-text-center">
+            <span class="banner__content">
+                <span class="banner__left">
+                    <h1 class="intro__title">Hey, I'm Abby</h1>
+                    <img class="d-sm-none rounded" src="images/Me.jpg" alt="Photo of Abby Carlson"
+                        width="300">
+                    <h3 class="intro__subtitle">A web developer from Winnipeg, Canada. I am a
+                        student of SheCodes, with the goal of learning & improving coding</h3>
+                    <button class="mt-5" href="projects.html">My
+                        projects</button>
+                </span>
+                <span class="banner__right">
+                    <img class="photo__abby .d-sm-block rounded" src="images/Me.jpg"
+                        alt="Photo of Abby Carlson" width="400">
+                </span>
             </span>
-            <span class="banner__right">
-                <img class="photo__abby" src="images/Me.jpg" alt="Photo of Abby Carlson"
-                    width="400">
-            </span>
-        </span>
-
-    </header>
-
+        </header>
+    </div>
     <main class="m-5">
         <h4 class="featured__title">FEATURED PROJECT</h4>
-        <hr>
+        <hr class="featured__inside__top">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-6  d-none d-lg-block">
                 <img src="images/Project/weatherapp.JPG" alt="Photo of weather application project"
-                    title="weather application snapshot" width="400" class="float-end">
+                    title="weather application snapshot" width="400"
+                    class="img-fluid float-end rounded weather__img">
             </div>
-            <div class="col-md-6">
-                <h4 class="p-4">Weather App</h4>
-                <h5 class="p-4">A simple weather application with a search feature using HTML, CSS,
-                    and
-                    JavaScript
+            <div class="col-6 featured">
+                <h4 class="">Weather App</h4>
+                <h5 class="featured__p">A simple, yet effective weather application with a
+                    search feature. Using
+                    HTML, CSS, & JavaScript
                 </h5>
+
+                <br>
                 <ul>
                     <li>Web Design</li>
                     <li>Coding</li>
@@ -90,10 +93,10 @@
             </div>
         </div>
     </main>
-    <hr>
+    <hr class="featured__inside__bottom">
     <footer>
-        <div class="container mt-5">
-            <div class="row">
+        <div class="container mt-5 mb-5">
+            <div class="row pre-footer">
                 <div class="col-sm-6">
                     <h2>Let's work together</h2>
                     <p>Have a project you'd like to talk about?
@@ -119,7 +122,7 @@
             </div>
         </div>
         <hr>
-        <p class="text-center mt-5">2021 Abby Carlson. All rights reserved.</p>
+        <p class="text-center">2021 Abby Carlson. All rights reserved.</p>
     </footer>
     </div>
 </body>
