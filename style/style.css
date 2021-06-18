@@ -102,18 +102,38 @@ ul {
     margin-top: 88px;
     margin-bottom: 88px;
 }
-
+.about__me__p {
+max-width: 800px!important;    
+text-align: end;
+}
+.img {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 0;
+max-height:237px!important;
+}
+.bike-and-me {
+    max-height: 384px;
+}
+.about__me__wrapper {
+    max-width: 1000px;
+align-content: center;
+}
 .intro__subtitle {
     line-height: 1.4!important;
     color: #ffffff80;
 
+}
+.spider {
+max-height:600px;
+margin-bottom: 3px;
 }
 .page-width {
 max-width: 1406px;
 display: flex;
 justify-content: center;
 }
-
 
 @media (max-width: 992px)  {
     .photo__abby {
