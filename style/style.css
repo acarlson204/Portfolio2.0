@@ -26,6 +26,7 @@ a:hover {
 button {
     padding: 20px 10px;
     background: #4b6cc1;
+    border: 1px solid #4b6cc1;;
     border-radius: 1000px;
     display: inline-block;
     font-size: 29.25px;
@@ -68,18 +69,26 @@ ul {
     text-align: initial;
     color: #ffffff80;
 }
-
-.hero {
-    margin-top: 80px;
+.abby {
+    display: inline;
 }
-
-.intro-p {
-    line-height: 1.5!important;
+.banner__content {
+    margin-top: 225px;
+    display: flex;
+    justify-content: center;
+}
+.banner__left {
+    padding-right: 147px;
+}
+.featured__title {
+    text-align: center;
+}
+.intro__subtitle {
+    line-height: 1.4!important;
     color: #ffffff80;
-    width: 770px;    
+
 }
 .page-width {
-width: 92%;
 max-width: 1406px;
 display: flex;
 justify-content: center;
