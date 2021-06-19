@@ -13,7 +13,7 @@ a {
     text-decoration: none;
     text-rendering: optimizeLegibility;
 }
-button {
+.purple__btn {
     background: #4b6cc1;
     border: 1px solid #4b6cc1;
     border-radius: 100px;
@@ -21,26 +21,21 @@ button {
     font-size: 29.25px;
     padding: 20px 10px;  
 }
-button :hover {
+.purple__btn :hover {
     font-size: larger;
     transition:  all 1s ease-out;
-
+}
+h1, h3, h4 {
+    font-weight: 400;    
 }
 h1 {
     font-size: 63px;
-    font-weight: 300;
 }
 h2 {
     font-size: 47.25 px;
-    font-weight: 400;
 }
 h3 {
     font-size: 31.5px;
-    font-weight: 300;
-}
-h4 {
-    font-weight: 300;
-
 }
 footer {
     text-rendering: optimizeLegibility;
@@ -48,7 +43,6 @@ footer {
 p {
     color: #ffffff80;
 }
-
 ul {
     color: #ffffff80;
     list-style: none;
@@ -59,7 +53,6 @@ ul {
     max-height: 480px;
     text-align: end;
 }
-
 .banner__content {
     display: flex;
     justify-content: center;
@@ -68,9 +61,11 @@ ul {
 .banner__left {
     padding-right: 147px;
 }
-.center-img {
+.center-img, .center {
     display: block;
     margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 
 }
 .featured__title {
